@@ -1,0 +1,108 @@
+{
+    "Main":{
+        "header": "Hello, I'm Giorgi Tskipurishvili",
+        "paragraph1": "Full-Stack Developer with a Bachelor's degree in Information Technology from Business and Technology University.",
+        "paragraph2": "I work with C# and ASP.NET Core for backend development and Angular for frontend applications. I have experience building RESTful APIs, working with Microsoft SQL Server and Oracle databases, and testing APIs using Postman. I focus on writing clean, maintainable code and continuously improving my technical skills. I am currently open to .NET or Full-Stack Developer opportunities where I can grow and contribute to real-world projects.",
+        "paragraph3": "Tech Stack: C#, .NET, ASP.NET Core, Angular, TypeScript, MS SQL Server, Oracle, REST APIs, Entity Framework, Git, Postman.",
+        "paragraph":[
+            "Full-Stack Developer with a Bachelor's degree in Information Technology from Business and Technology University.",
+            "I work with C# and ASP.NET Core for backend development and use Angular to build frontend applications. I have experience designing and developing RESTful APIs, as well as working with Microsoft SQL Server and Oracle databases. I actively use Postman for API testing. I focus on writing clean, maintainable, and scalable code, and continuously work on improving my technical skills to build efficient and reliable web applications and APIs.",
+            "Tech Stack: C#, .NET, ASP.NET Core, Angular, TypeScript, MS SQL Server, Oracle, REST APIs, Entity Framework, Git, Postman."
+        ]
+    },
+
+    "WorkExperience": {
+        "Full-Time": "Full-Time",
+        "Part-Time": "Part-Time",
+        "Intern": "Intern",
+        "freelance":"Freelance",   
+        "location":"Tbilisi, Georgia",    
+        
+        "RS": {
+            "title":"Revenue Service",
+            "period":"September 2024 – January 2025" ,
+            "position":"Full-Stack Developer",
+            "li-paragraph":[
+                "I developed full-stack applications using C#, .NET Entity Framework, and ASP.NET Core Web API for backend development.",
+                "I worked with Oracle Database for data management and optimization.",
+                "I built frontend features using Angular, HTML, CSS, and TypeScript."
+            ]   
+        },
+
+        "GSES": {
+            "title":"Georgian State Electric System",
+            "period":"May 2025 – July 2025" ,
+            "position":"System Administrator",
+            "li-paragraph":[
+                "Provided support and maintenance for enterprise-level systems on both Windows Server and Linux platforms.",
+                "Managed and configured virtualization infrastructure using VMware vSphere, VMware vCenter, and VMware Workstation.",
+                "Administered and monitored email systems, including Microsoft Exchange Server and Barracuda Email Security Gateway.",
+                "Participated in routine system backups, updates, and security checks to ensure high availability and integrity of systems."
+            ]   
+        },
+
+        "LexSport": {
+            "title":"LexSport Georgia",
+            "period":"February 2026 – Present" ,
+            "position":"Full-Stack Developer",
+            "li-paragraph":[
+                "Developed the official website using Angular and TypeScript.",
+                "Built a modern responsive UI for a sports law organization.",
+                "Structured the application using Angular components, routing, and modular architecture.",
+                "Implemented administrative functionality for creating and managing legal articles/news related to sports law.",
+                "Optimized the website for both desktop and mobile devices."
+            ]   
+        }
+    },
+
+    "Skills":{
+        "TechnicalSkills":{
+            "TechnicalSkills": "Technical Skills",
+            "ProgrammingLanguages": "Programming Languages",
+            "WebProgramming": "Web Programming",
+            "Databases": "Databases",
+            "OperatingSystems": "Operating Systems",
+            "VersionControl": "Version Control Systems",
+            "IDEs": "Integrated development environments:"
+        },
+
+        "SoftSkills":{
+            "SoftSkills": "Soft Skills",
+            "SkillsList":[
+                "Communication",
+                "Responsibility",
+                "Organization",
+                "Problem Solving",
+                "Teamwork",
+                "Results-oriented",
+                "Focus & attention to detail",
+                "Time Management"
+            ]
+        },
+
+        "LanguageSkills":{
+            "Languages": "Languages",
+            "LanguagesList":[
+                "<b>Georgian</b> - Native Language",
+                "<b>English</b> - B1 Intermediate"
+            ]
+        }
+
+    },
+
+    "Education": {
+        "title": "Education",
+        "BTU": {
+            "name":"Bussiness & Technology University",
+            "degree":"Bachelor’s Degree in Information Technologies",
+            "field":"Information Technology",
+            "period":"September 2020 - July 2024"
+        },
+        "CommSchool": {
+            "name":"Tbilisi school of Communication",
+            "degree":"Certificate in Back-end Development (C# & .NET)",
+            "field":"Participant in the „Do It in Georgia“ program – Tbilisi School of Communication, Back-end Development (C# & .NET)",
+            "period":"December 2023 - February 2024"  
+        }
+    }
+}

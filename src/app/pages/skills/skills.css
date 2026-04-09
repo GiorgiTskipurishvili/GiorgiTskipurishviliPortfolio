@@ -1,0 +1,88 @@
+/* *{
+    font-family: 'Open Sans', sans-serif;
+}
+.skills-container{
+    width: 900px;
+    max-width: calc(100% - 2em);
+    margin: auto;
+    padding: 3em 1em;
+}
+
+.technical-skills > .technical-items li{
+    list-style-type: none;
+}
+
+.technical-items li{
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+.technical-items{
+    padding: 1.5rem;
+}
+ul {
+
+    list-style-position: inside;
+}
+
+
+.language-items{
+    padding: 1.5rem;
+}
+.language-items  li{
+    list-style-type: none;
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+span{
+    font-weight: bold;
+}
+
+.technical-skills, .soft-skills, .languages{
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px #0000001a;
+} */
+
+.skills-container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 4rem 1.5rem;
+}
+
+/* sections */
+.technical-skills,
+.soft-skills,
+.languages {
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+
+  transition: 0.3s;
+}
+
+.technical-skills:hover,
+.soft-skills:hover,
+.languages:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+}
+
+/* list -> badges */
+.technical-items li,
+.language-items li {
+  display: inline-block;
+  margin: 6px;
+  padding: 6px 12px;
+
+  background: #eef2ff;
+  color: #3730a3;
+
+  border-radius: 999px;
+  font-size: 0.9rem;
+}

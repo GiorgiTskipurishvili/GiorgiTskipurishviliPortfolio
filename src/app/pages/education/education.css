@@ -1,0 +1,48 @@
+.education-container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 4rem 1.5rem;
+}
+
+.education-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.education-card {
+  background: white;
+  border-radius: 16px;
+  border: 1px solid var(--border);
+
+  padding: 1.5rem;
+
+  transition: 0.3s;
+}
+
+.education-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.08);
+}
+
+.education-card h2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.education-card img {
+  height: 36px;
+}
+
+.degree {
+  font-weight: bold;
+  color: var(--muted);
+}
+
+.field, .duration {
+  color: var(--muted);
+}
+h2{
+    padding-bottom: 5px;
+}

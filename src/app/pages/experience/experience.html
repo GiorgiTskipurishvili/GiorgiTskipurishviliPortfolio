@@ -1,0 +1,41 @@
+<div class="experience-container">
+    <h1>💼 Work Experience</h1>
+    <div class="experience-section">
+        <div class="experience-card">
+            <h2><span><a href="https://rs.ge/" target="_blank">{{ 'WorkExperience.RS.title' | translate }}</a> - </span>{{'WorkExperience.Intern' | translate }}, {{ 'WorkExperience.RS.position' | translate }}</h2>
+            <h3><span>{{ 'WorkExperience.location' | translate }}</span> | {{ 'WorkExperience.RS.period' | translate }}</h3>
+            <ul>
+                @for (item of ('WorkExperience.RS.li-paragraph' | translate); track $index) {
+                    <li>{{ item }}</li>
+                }
+            </ul>
+        </div>
+        <div class="experience-card">
+            <h2><span><a href="https://rs.ge/" target="_blank">{{ 'WorkExperience.GSES.title' | translate }}</a> - </span> {{'WorkExperience.Intern' | translate }}, {{ 'WorkExperience.GSES.position' | translate }}</h2>
+            <h3><span>{{ 'WorkExperience.location' | translate }}</span> | {{ 'WorkExperience.GSES.period' | translate }}</h3>
+            <ul>
+                @for (item of ('WorkExperience.GSES.li-paragraph' | translate); track $index) {
+                    <li>{{ item }}</li>
+                }
+
+            </ul>
+        </div>
+
+        <div class="experience-card">
+            <h2><span><a href="https://lexsportgeorgia.uk/" target="_blank">{{ 'WorkExperience.LexSport.title' | translate }}</a> - </span> {{'WorkExperience.freelance' | translate }}, {{ 'WorkExperience.LexSport.position' | translate }}</h2>
+            <h3><span>{{ 'WorkExperience.location' | translate }}</span> | {{ 'WorkExperience.LexSport.period' | translate }}</h3>
+            <ul>
+                @for (item of ('WorkExperience.LexSport.li-paragraph' | translate); track $index) {
+                    <li>{{ item }}</li>
+                }
+            </ul>
+        </div>
+
+
+
+
+    </div>
+</div>
+
+
+

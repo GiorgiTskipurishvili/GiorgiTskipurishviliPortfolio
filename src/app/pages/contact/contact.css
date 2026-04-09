@@ -1,0 +1,48 @@
+.contact {
+  text-align: center;
+  padding: 80px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.subtitle {
+  margin-bottom: 40px;
+  color: #666;
+}
+
+.contact-methods {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contact-card {
+  padding: 20px 30px;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  text-decoration: none;
+  color: inherit;
+  transition: 0.3s;
+  background: #fff;
+}
+
+#linkedin:hover {
+  transform: translateY(-6px);
+  border-color: #0a66c2;
+  box-shadow: 0 10px 25px rgba(74, 51, 51, 0.28);
+  
+}
+#github:hover {
+  transform: translateY(-6px);
+  border-color: #333;
+  box-shadow: 0 10px 25px rgba(74, 51, 51, 0.28);
+}
+
+#email:hover {
+  transform: translateY(-6px);
+  border-color: #c23a2b;
+  box-shadow: 0 10px 25px rgba(74, 51, 51, 0.28);
+}
+
