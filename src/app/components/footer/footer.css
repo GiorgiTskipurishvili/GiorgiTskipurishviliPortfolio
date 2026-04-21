@@ -9,6 +9,7 @@ footer {
     gap: 1.8rem;
 
     border-top: 1px solid var(--border);
+    color: #3b4f56;
 }
 
 .footer-text {

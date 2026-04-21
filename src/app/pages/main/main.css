@@ -25,6 +25,7 @@ main p {
   max-width: 700px;
   margin: 0.5rem auto;
   font-size: 1.05rem;
+  text-align: left;
 }
 
 

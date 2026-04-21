@@ -2,10 +2,11 @@ import { Component, signal } from '@angular/core';
 import { LanguageButton } from "../../shared/language-button/language-button";
 import { Router, RouterLink } from '@angular/router';
 import { Translate } from '../../services/translate';
+import { TranslatePipe } from "../../pipes/translate-pipe";
 
 @Component({
   selector: 'app-header',
-  imports: [LanguageButton, RouterLink],
+  imports: [LanguageButton, RouterLink, TranslatePipe],
   templateUrl: './header.html',
   styleUrl: './header.css',
 })

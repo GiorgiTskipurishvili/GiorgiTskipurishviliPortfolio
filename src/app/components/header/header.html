@@ -8,10 +8,11 @@
             <a href="/education">Education</a> -->
             <!-- <a [routerLink]="['/', currentLang]" (click)="closeMenu()">Home</a> -->
             <!-- <a [routerLink]="['/', currentLang, 'experience']" (click)="closeMenu()">Experience</a> -->
-            <a [routerLink]="['/', currentLang, 'experience']" (click)="navigate('experience')">Experience</a>
-            <a [routerLink]="['/', currentLang, 'skills']" (click)="navigate('skills')">Skills</a>
-            <a [routerLink]="['/', currentLang, 'education']" (click)="navigate('education' )">Education</a>
-            <a [routerLink]="['/', currentLang, 'contact']" (click)="navigate('contact' )">Contact</a>
+            <a [routerLink]="['/', currentLang, 'experience']" (click)="navigate('experience')">{{ 'Header.experience' | translate }}</a>
+            <a [routerLink]="['/', currentLang, 'projects']" (click)="navigate('projects')">{{ 'Header.projects' | translate }}</a>
+            <a [routerLink]="['/', currentLang, 'skills']" (click)="navigate('skills')">{{ 'Header.skills' | translate }}</a>
+            <a [routerLink]="['/', currentLang, 'education']" (click)="navigate('education' )">{{ 'Header.education' | translate }}</a>
+            <a [routerLink]="['/', currentLang, 'contact']" (click)="navigate('contact' )">{{ 'Header.contact' | translate }}</a>
 
             <!-- <div class="language-button" [class.open]="isMenuOpen">
                 <app-language-button [isMenuOpen]="isMenuOpen"></app-language-button>
