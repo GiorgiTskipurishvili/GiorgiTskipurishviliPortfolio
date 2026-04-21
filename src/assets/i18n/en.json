@@ -104,5 +104,27 @@
             "field":"Participant in the „Do It in Georgia“ program – Tbilisi School of Communication, Back-end Development (C# & .NET)",
             "period":"December 2023 - February 2024"  
         }
+    },
+
+    "Header" : {
+        "home": "Home",
+        "experience": "Experience",
+        "projects": "Projects",
+        "skills": "Skills",
+        "education": "Education",
+        "contact": "Contact"
+    },
+
+    "Contact": {
+        "title": "Contact Me",
+        "subtitle": "I’m open to work and collaboration. Feel free to reach out 👇",
+        "linkedIn": {
+            "name" : "LinkedIn",
+            "connect" : "Connect with me"
+        },
+        "github": {
+            "name" : "GitHub",
+            "connect" : "See my projects"
+        }
     }
 }
