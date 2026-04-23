@@ -14,7 +14,7 @@ export class Translate {
       const lang = this.currentLang();
       localStorage.setItem('lang', lang);
 
-      this.http.get<Record<string, any>>(`/assets/i18n/${lang}.json`)
+      this.http.get<Record<string, any>>(`assets/i18n/${lang}.json`)
         .subscribe({
           next: data => this.translations.set(data),
           error: err => console.error('Translation load error', err),
