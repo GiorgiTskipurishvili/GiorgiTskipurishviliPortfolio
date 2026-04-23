@@ -23,10 +23,18 @@ export const routes: Routes = [
   },
   
 
+// { 
+//   path: '', 
+//   pathMatch: 'full', 
+//   redirectTo: localStorage.getItem('lang') || 'en'
+// },
+// { path: '**', redirectTo: localStorage.getItem('lang') || 'en' }
+
+
 { 
   path: '', 
   pathMatch: 'full', 
-  redirectTo: localStorage.getItem('lang') || 'en'
+  redirectTo: typeof localStorage !== 'undefined' ? (localStorage.getItem('lang') || 'en') : 'en'
 },
-{ path: '**', redirectTo: localStorage.getItem('lang') || 'en' }
+{ path: '**', redirectTo: typeof localStorage !== 'undefined' ? (localStorage.getItem('lang') || 'en') : 'en' }
 ];

@@ -24,12 +24,27 @@ export class App {
 
         let langFromUrl = url.split('/')[1];
 
-        if (!langFromUrl) {
+        // if (!langFromUrl) {
+        //   langFromUrl = 'en';
+        //   this.router.navigateByUrl(`/${langFromUrl}`);
+        // }
+
+        // if (langFromUrl && langFromUrl !== this.translate.currentLang()) {
+        //   this.translate.setLanguage(langFromUrl);
+        // }
+
+        const validLangs = ['en', 'ka'];
+
+        if (!langFromUrl || !validLangs.includes(langFromUrl)) {
           langFromUrl = 'en';
-          this.router.navigateByUrl(`/${langFromUrl}`);
+          // არ გადავამისამართოთ თუ ეს არის სტატიკური ფაილი (სურათი და ა.შ.)
+          if (!url.includes('.') && url !== '/') {
+            this.router.navigateByUrl(`/${langFromUrl}`);
+          }
+          return;
         }
 
-        if (langFromUrl && langFromUrl !== this.translate.currentLang()) {
+        if (langFromUrl !== this.translate.currentLang()) {
           this.translate.setLanguage(langFromUrl);
         }
 
