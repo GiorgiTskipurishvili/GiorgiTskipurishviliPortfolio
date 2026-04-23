@@ -13,7 +13,7 @@ export class Projects {
   {
     title: 'LexSport Georgia - Sports Law Platform',
     description: 'Full-stack app with Angular',
-    image: '/LexSportScreen.png',
+    image: './LexSportScreen.png',
     live: 'https://lexsportgeorgia.uk/',
   }
 ];
