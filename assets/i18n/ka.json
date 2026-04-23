@@ -1,0 +1,135 @@
+{
+    "Main":{
+        "header": "გამარჯობა, მე ვარ გიორგი ცქიფურიშვილი",
+        "paragraph1": "Full-Stack დეველოპერი, საინფორმაციო ტექნოლოგიების ბაკალავრის ხარისხით, ბიზნესისა და ტექნოლოგიების უნივერსიტეტი.",
+        "paragraph2": "I work with C# and ASP.NET Core for backend development and Angular for frontend applications. I have experience building RESTful APIs, working with Microsoft SQL Server and Oracle databases, and testing APIs using Postman. I focus on writing clean, maintainable code and continuously improving my technical skills. I am currently open to .NET or Full-Stack Developer opportunities where I can grow and contribute to real-world projects.",
+        "paragraph3": "Tech Stack: C#, .NET, ASP.NET Core, Angular, TypeScript, MS SQL Server, Oracle, REST APIs, Entity Framework, Git, Postman."
+    ,
+        "paragraph":[
+            "Full-Stack დეველოპერი, საინფორმაციო ტექნოლოგიების ბაკალავრის ხარისხით, ბიზნესისა და ტექნოლოგიების უნივერსიტეტი.",
+            "ვმუშაობ C#-სა და ASP.NET Core-თან ბექენდ დეველოპმენტისთვის და Angular-ს ვიყენებ ფრონტენდ აპლიკაციების შესაქმნელად. მაქვს გამოცდილება RESTful API-ების დიზაინსა და განვითარებაში, ასევე Microsoft SQL Server-ისა და Oracle-ის მონაცემთა ბაზებთან მუშაობაში. აქტიურად ვიყენებ Postman-ს API ტესტირებისთვის. ფოკუსირებული ვარ სუფთა, მართვადი და მასშტაბირებადი კოდის წერაზე და მუდმივად ვმუშაობ ჩემი ტექნიკური უნარების გაუმჯობესებაზე ეფექტური და საიმედო ვებ აპლიკაციებისა და API-ების შესაქმნელად.",
+            "ტექნოლოგიები: C#, .NET, ASP.NET Core, Angular, TypeScript,   MS SQL Server, Oracle, REST APIs, Entity Framework, Git, Postman."
+        ]       
+    },
+
+    "WorkExperience": {
+        "Full-Time": "სრული განაკვეთი",
+        "Part-Time": "ნახევარი განაკვეთი",
+        "Intern": "სტაჟირება",
+        "freelance":"ფრილანსი",
+        "location":"თბილისი, საქართველო",
+        
+        "RS": {
+            "title":"შემოსავლების სამსახური",
+            "period":"სექტემბერი 2024 – იანვარი 2025" ,
+            "position":"Full-Stack დეველოპერი",
+            "li-paragraph":[
+                "შევიმუშავე full-stack აპლიკაციები C#-ის, .NET Entity Framework-ისა და ASP.NET Core Web API-ის გამოყენებით ბექ-ენდისთვის.",
+                "ვმუშაობდი Oracle Database-თან მონაცემთა მართვისა და ოპტიმიზაციისთვის.",
+                "ფრონტ-ენდის ფუნქციები დანერგილი მაქვს Angular-ის, HTML-ის, CSS-ის და TypeScript-ის გამოყენებით."
+            ]   
+        },
+
+        "GSES": {
+            "title":"საქართველოს სახელმწიფო ელექტროსისტემა",
+            "period":"მაისი 2025 – ივლისი 2025" ,
+            "position":"სისტემური ადმინისტრატორი",
+            "li-paragraph":[
+                "უზრუნველყოფდა მხარდაჭერას და მოვლას საწარმო დონის სისტემებისთვის, როგორც Windows Server, ასევე Linux პლატფორმებზე.",
+                "ვირტუალიზაციის ინფრასტრუქტურის მართვა და კონფიგურირება VMware vSphere-ის, VMware vCenter-ის და VMware Workstation-ის გამოყენებით.",
+                "ელექტრონული ფოსტის სისტემების, მათ შორის Microsoft Exchange Server-ისა და Barracuda Email Security Gateway-ის ადმინისტრირება და მონიტორინგი.",
+                "მონაწილეობა მივიღე სისტემის რუტინულ სარეზერვო ასლებში, განახლებებსა და უსაფრთხოების შემოწმებებში, რათა უზრუნველვყოთ სისტემის მაღალი ხელმისაწვდომობა და მთლიანობა."
+            ]   
+        },
+
+        "LexSport": {
+            "title":"LexSport Georgia",
+            "period":"თებერვალი 2026 – დღემდე" ,
+            "position":"Full-Stack დეველოპერი",
+            "li-paragraph":[
+                "განვავითარე ოფიციალური ვებგვერდი Angular-ისა და TypeScript-ის გამოყენებით.",
+                "შევქმენი თანამედროვე, რეაგირებადი UI სპორტული სამართლის ორგანიზაციისთვის.",
+                "აპლიკაციის სტრუქტურირება მოვახდინეთ Angular-ის კომპონენტების, მარშრუტიზაციისა და მოდულური არქიტექტურის გამოყენებით.",
+                "დანერგილია ადმინისტრაციული ფუნქციონალი სპორტულ სამართალთან დაკავშირებული იურიდიული სტატიების/სიახლეების შესაქმნელად და სამართავად.",
+                "ვებსაიტი ოპტიმიზებულია დესკტოპისა და მობილური მოწყობილობებისთვის"
+            ]   
+        }
+    },
+
+    "Skills":{
+        "TechnicalSkills":{
+            "TechnicalSkills": "ტექნიკური უნარები",
+            "ProgrammingLanguages": "პროგრამირების ენები",
+            "WebProgramming": "ვებ პროგრამირება",
+            "Databases": "მონაცემთა ბაზები",
+            "OperatingSystems": "ოპერაციული სისტემები",
+            "VersionControl": "ვერსიების მართვის სისტემები",
+            "IDEs": "ინტეგრირებული გარემოები:"
+        },
+
+        "SoftSkills":{
+            "SoftSkills": "პერსონალური უნარები",
+            "SkillsList":[
+                "კომუნიკაცია",
+                "პასუხისმგებლობა",
+                "ორგანიზება",
+                "პრობლემების გადაჭრა",
+                "გუნდური მუშაობა",
+                "შედეგებზე ორიენტირებული",
+                "ფოკუსირება და ყურადღება დეტალებზე",
+                "დროის მართვა"
+            ]
+        },
+
+        "LanguageSkills":{
+            "Languages": "ენები",
+            "LanguagesList":[
+                "<b>ქართული</b> - მშობლიური ენა",
+                "<b>ინგლისური</b> - B1 საშუალო დონე"
+            ]
+         }
+        
+    },
+
+    "Education":{
+        "title": "განათლება",
+        "BTU":{
+            "name":"ბიზნესისა და ტექნოლოგიების უნივერსიტეტი",
+            "degree":"ბაკალავრის ხარისხი, საინფორმაციო ტექნოლოგიები",
+            "field":"საინფორმაციო ტექნოლოგიები",
+            "period":"სექტემბერი 2020 – ივლისი 2024"
+        },
+
+        "CommSchool":{
+            "name":"თბილისის კომუნიკაციის სკოლა",
+            "degree":"სერტიფიკატი, ბექ-ენდ დეველოპმენტი (C# და ASP.NET Core)",
+            "field":"„Do It in Georgia“ პროგრამის მონაწილე – Tbilisi School of Communication, ბექ-ენდ დეველოპმენტი (C# & .NET)",
+            "period":"დეკემბერი 2023 – თებერვალი 2024"
+        }
+    
+    },
+
+    "Header" : {
+        "home": "მთავარი",
+        "experience": "გამოცდილება",
+        "projects": "პროექტები",
+        "skills": "უნარები",
+        "education": "განათლება",
+        "contact": "კონტაქტი"
+     
+    },
+
+    "Contact" :{
+        "title": "დამიკავშირდით",
+        "subtitle": "ღია ვარ სამუშაოსა და თანამშრომლობისთვის. სიამოვნებით განვიხილავ თქვენს შემოთავაზებებს. 👇",
+        "linkedIn": {
+            "name": "LinkedIn",
+            "connect": "დამიკავშირდით"
+        },
+        "github": {
+            "name": "GitHub",
+            "connect": "ნახეთ ჩემი პროექტები"
+        }
+    }
+
+}
