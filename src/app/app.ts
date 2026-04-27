@@ -1,4 +1,4 @@
-import { Component, signal } from '@angular/core';
+import { Component, OnInit, signal } from '@angular/core';
 import { NavigationEnd, Router, RouterOutlet } from '@angular/router';
 import { Header } from "./components/header/header";
 import { Footer } from "./components/footer/footer";
@@ -13,7 +13,7 @@ declare let gtag: Function;
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
-export class App {
+export class App implements OnInit {
 
    constructor(private router: Router, private translate: Translate) {
     this.router.events
@@ -48,13 +48,26 @@ export class App {
           this.translate.setLanguage(langFromUrl);
         }
 
-        // 🔥 GOOGLE ANALYTICS TRACKING
+        //GOOGLE ANALYTICS TRACKING
         if (typeof gtag === 'function') {
           gtag('config', 'G-LEB1Q91K2T', {
             page_path: url
           });
         }
       });
+  }
+  ngOnInit(): void {
+        window.addEventListener('load', () => {
+      const loader = document.getElementById('global-loader');
+      if (loader) {
+        loader.style.opacity = '0';
+        loader.style.transition = '0.4s';
+
+        setTimeout(() => {
+          loader.remove();
+        }, 400);
+      }
+    });
   }
 
   

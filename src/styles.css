@@ -56,3 +56,28 @@ p {
 a, button {
   transition: all 0.25s ease;
 }
+
+#global-loader {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #0f172a; 
+  z-index: 9999;
+}
+
+.loader {
+  width: 50px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: 
+    radial-gradient(farthest-side,var(--muted) 94%,#0000) top/8px 8px no-repeat,
+    conic-gradient(#0000 30%,var(--muted));
+  -webkit-mask: radial-gradient(farthest-side,#0000 calc(100% - 8px),#000 0);
+  animation: l13 1s infinite linear;
+}
+
+@keyframes l13 { 
+  100% { transform: rotate(1turn); }
+}
