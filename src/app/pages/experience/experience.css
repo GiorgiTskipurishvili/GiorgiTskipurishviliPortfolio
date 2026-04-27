@@ -6,7 +6,7 @@
 
 .experience-section {
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   gap: 2rem;
 }
 
@@ -17,6 +17,7 @@
   padding: 1.5rem;
 
   transition: 0.3s;
+
 }
 
 .experience-card:hover {
